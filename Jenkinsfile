@@ -13,7 +13,6 @@ node {
           sh "docker cp cucutest:/usr/src/app/cucumber.json ./"
           cucumber 'cucumber.json'
           sh "docker rm cucutest"
-          sh "docker rmi cucutest"
         }
 
 
