@@ -1,0 +1,12 @@
+{
+  "name": "cucutest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cucumber": "^4.2.1"
+  },
+  "scripts":{
+      "test":"cucumber-js -f json:cucumber.json"
+  }
+}

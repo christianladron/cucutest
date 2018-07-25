@@ -1,0 +1,7 @@
+const {When, Then, Given} = require('cucumber')
+Given('la cosa uno', () => console.log('la cosa uno'))
+When('la cosa dos', () => console.log('la cosa dos'))
+Then('checa cosa dos', () => console.log('checa cosa dos'))
+Given('la cosa uno dos', () => console.log('la cosa uno dos'))
+When('la cosa dos dos', () => console.log('la cosa dos dos'))
+Then('checa cosa dos dos', () => console.log('checa cosa dos dos'))
